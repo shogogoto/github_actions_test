@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 
 import { useFormContext } from "react-hook-form";
-import { ContentFormInput } from "~/types/Content";
+// import { ContentFormInput } from "types/Content";
 //
 // const CaptionInput: FC = ()=> {
 //   const { register } = useFormContext<ContentFormInput>();

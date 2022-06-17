@@ -2,9 +2,6 @@ export interface ContentFormInput {
   caption: string,
   description: string
 };
-export function xyz(){
-
-}
 
 export class Caption {
   constructor(private value: string){
