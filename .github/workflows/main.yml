@@ -21,6 +21,9 @@ jobs:
         with:
           node-version: "14"
 
+      - name: install
+        run: yarn install
+
       - name: Test
         run: yarn test
 
