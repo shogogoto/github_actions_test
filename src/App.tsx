@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-impot ContentApi from "api/ContentApi"
+import ContentApi from "./api/ContentApi"
 
 
 function App() {
