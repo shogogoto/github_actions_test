@@ -1,8 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+impot ContentApi from "api/ContentApi"
+
 
 function App() {
+  const message = ContentApi.get();
+
   return (
     <div className="App">
       <header className="App-header">
